@@ -42,7 +42,8 @@
       "categoria": "Tecnología",
       "descripcion": "Alto rendimiento para juegos.",
       "precio": 3200000,
-      "imagen": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400"
+      "imagen": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400",
+      "stock": 15
     },
     {
       "id": 2,
@@ -50,7 +51,8 @@
       "categoria": "Accesorios personales",
       "descripcion": "Sonido envolvente y batería de larga duración.",
       "precio": 320000,
-      "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400"
+      "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400",
+      "stock": 25
     },
     {
       "id": 3,
@@ -58,7 +60,8 @@
       "categoria": "Tecnología",
       "descripcion": "Monitor de salud y notificaciones inteligentes.",
       "precio": 1550000,
-      "imagen": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=400"
+      "imagen": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=400",
+      "stock": 8
     },
     {
       "id": 4,
@@ -66,7 +69,8 @@
       "categoria": "Hogar",
       "descripcion": "Espacio amplio y diseño moderno.",
       "precio": 850000,
-      "imagen": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=400"
+      "imagen": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=400",
+      "stock": 10
     },
     {
       "id": 5,
@@ -74,7 +78,8 @@
       "categoria": "Papelería",
       "descripcion": "Papel de alta calidad para tus notas.",
       "precio": 25000,
-      "imagen": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=400"
+      "imagen": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=400",
+      "stock": 24
     },
     {
       "id": 6,
@@ -82,7 +87,8 @@
       "categoria": "Deporte",
       "descripcion": "Material resistente y óptimo rebote.",
       "precio": 120000,
-      "imagen": "https://images.unsplash.com/photo-1614632537197-38a17061c2bd?w=400"
+      "imagen": "https://images.unsplash.com/photo-1614632537197-38a17061c2bd?w=400",
+      "stock": 12
     },
     {
       "id": 7,
@@ -90,7 +96,8 @@
       "categoria": "Tecnología",
       "descripcion": "Ideal para trabajo y entretenimiento.",
       "precio": 980000,
-      "imagen": "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=400"
+      "imagen": "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=400",
+      "stock": 25
     },
     {
       "id": 8,
@@ -98,7 +105,8 @@
       "categoria": "Hogar",
       "descripcion": "Iluminación ajustable y bajo consumo.",
       "precio": 125000,
-      "imagen": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400"
+      "imagen": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=400",
+      "stock": 60
     },
     {
       "id": 9,
@@ -106,7 +114,8 @@
       "categoria": "Papelería",
       "descripcion": "set de 15 Boligrafos negros, azules y rojos.",
       "precio": 20000,
-      "imagen": "https://plus.unsplash.com/premium_photo-1760662482274-b90c8050fd69?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687"
+      "imagen": "https://plus.unsplash.com/premium_photo-1760662482274-b90c8050fd69?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687",
+      "stock": 50
     },
     {
       "id": 10,
@@ -114,7 +123,8 @@
       "categoria": "Deporte",
       "descripcion": "Resistente al agua con múltiples compartimentos.",
       "precio": 120000,
-      "imagen": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400"
+      "imagen": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400",
+      "stock": 35
     },
     {
       "id": 11,
@@ -122,7 +132,8 @@
       "categoria": "Accesorios personales",
       "descripcion": "Monitoreo de actividad y sueño.",
       "precio": 800000,
-      "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400"
+      "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
+      "stock": 22
     },
     {
       "id": 12,
@@ -130,7 +141,8 @@
       "categoria": "Tecnología",
       "descripcion": "Ergonómico con batería de 6 meses.",
       "precio": 95000,
-      "imagen": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400"
+      "imagen": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400",
+      "stock": 50
     },
     {
       "id": 13,
@@ -138,7 +150,8 @@
       "categoria": "Hogar",
       "descripcion": "Set de 5 cojines.",
       "precio": 150000,
-      "imagen": "https://images.unsplash.com/photo-1617326021886-53d6be1d7154?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1171"
+      "imagen": "https://images.unsplash.com/photo-1617326021886-53d6be1d7154?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1171",
+      "stock": 40
     },
     {
       "id": 14,
@@ -146,7 +159,8 @@
       "categoria": "Papelería",
       "descripcion": "15 Marcadores de punta fina y colores vivos.",
       "precio": 55000,
-      "imagen": "https://images.unsplash.com/photo-1587117266184-2fbb10ccc05e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170"
+      "imagen": "https://images.unsplash.com/photo-1587117266184-2fbb10ccc05e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1170",
+      "stock": 90
     },
     {
       "id": 15,
@@ -154,7 +168,8 @@
       "categoria": "Deporte",
       "descripcion": "Set de 2 pesas de 10 kg.",
       "precio": 150000,
-      "imagen": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=400"
+      "imagen": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=400",
+      "stock": 18
     },
     {
       "id": 16,
@@ -162,7 +177,8 @@
       "categoria": "Accesorios personales",
       "descripcion": "Protección UV400 con diseño moderno.",
       "precio": 220000,
-      "imagen": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400"
+      "imagen": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400",
+      "stock": 55
     },
     {
       "id": 17,
@@ -170,7 +186,8 @@
       "categoria": "Tecnología",
       "descripcion": "Switches azules con iluminación personalizable.",
       "precio": 320000,
-      "imagen": "https://images.unsplash.com/photo-1669884209488-1332b73f122b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=400"
+      "imagen": "https://images.unsplash.com/photo-1669884209488-1332b73f122b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=400",
+      "stock": 28
     },
     {
       "id": 18,
@@ -178,7 +195,8 @@
       "categoria": "Hogar",
       "descripcion": "Suave textura de 2x3 metros.",
       "precio": 380000,
-      "imagen": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=400"
+      "imagen": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=400",
+      "stock": 12
     },
     {
       "id": 19,
@@ -186,7 +204,8 @@
       "categoria": "Papelería",
       "descripcion": "240 funciones para matemáticas avanzadas.",
       "precio": 85000,
-      "imagen": "https://images.unsplash.com/photo-1574607383077-47ddc2dc51c4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1936"
+      "imagen": "https://images.unsplash.com/photo-1574607383077-47ddc2dc51c4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1936",
+      "stock": 70
     },
     {
       "id": 20,
@@ -194,7 +213,8 @@
       "categoria": "Deporte",
       "descripcion": "Antideslizante con grosor de 6mm.",
       "precio": 145000,
-      "imagen": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400"
+      "imagen": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400",
+      "stock": 33
     }
   ]
 }

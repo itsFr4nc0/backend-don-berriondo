@@ -1,4 +1,4 @@
-import { readDB } from "../utils/db.js";
+import { readDB, writeDB } from "../utils/db.js";
 
 export const getProducts = (req, res) => {
   const db = readDB();
@@ -11,4 +11,30 @@ export const getProductById = (req, res) => {
   const product = db.products.find(p => p.id === id);
   if (!product) return res.status(404).json({ message: "Producto no encontrado" });
   res.json(product);
+};
+
+export const updateStock = (req, res) => {
+  const { items } = req.body;
+
+  if (!items || !Array.isArray(items)) {
+    return res.status(400).json({ message: "Formato inválido" });
+  }
+
+  try {
+    const db = readDB();
+
+    items.forEach((item) => {
+      const producto = db.products.find(p => p.id === item.id);
+      if (producto) {
+        producto.stock = Math.max(producto.stock - item.cantidad, 0);
+      }
+    });
+
+    writeDB(db);
+
+    res.json({ message: "Stock actualizado correctamente" });
+  } catch (error) {
+    console.error("Error actualizando stock:", error);
+    res.status(500).json({ message: "Error interno del servidor" });
+  }
 };
