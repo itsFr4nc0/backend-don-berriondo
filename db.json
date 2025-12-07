@@ -33,6 +33,17 @@
       "address": "barriosantana",
       "birthDate": "1990-03-04",
       "gender": "femenino"
+    },
+    {
+      "id": "66854b2b-91d5-430f-afbb-eb70bdf132ce",
+      "name": "Nicolás Ruiz Blandón",
+      "email": "nruizbl@unal.edu.co",
+      "passwordHash": "$2b$10$7D/aJjh/We4DEiFxDBxjFemwgX99XqYXyF7jih3gKpYo0BvSVqMtG",
+      "city": "Medellín",
+      "postalCode": "05001",
+      "address": "Calle 32",
+      "birthDate": "2005-02-07",
+      "gender": "masculino"
     }
   ],
   "products": [
@@ -216,5 +227,33 @@
       "imagen": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400",
       "stock": 33
     }
-  ]
+  ],
+  "opinions": [
+    {
+      "id": "589e765e-304c-4834-be06-b8474af590c5",
+      "userId": "66854b2b-91d5-430f-afbb-eb70bdf132ce",
+      "productId": 9,
+      "nombre": "Nicolás Ruiz Blandón",
+      "comentario": "Gran producto, ¡escribe fantástico!",
+      "estrellas": 5,
+      "fecha": "2025-12-07T17:42:04.969Z"
+    }
+  ],
+  "purchases": [
+    {
+      "id": "a976777e-fba6-4e32-a5d2-9ae34cf4f00b",
+      "userId": "66854b2b-91d5-430f-afbb-eb70bdf132ce",
+      "items": [
+        {
+          "id": 9,
+          "name": "Bolígrafos",
+          "cantidad": 1,
+          "precio": 20000
+        }
+      ],
+      "fecha": "2025-12-07T17:41:26.373Z",
+      "total": 20000
+    }
+  ],
+  "carts": []
 }
