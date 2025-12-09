@@ -61,5 +61,11 @@ export const login = (req, res) => {
   );
 
   const { passwordHash, ...userSafe } = user;
-  return res.json({ token, user: userSafe });
+  return res.status(200).json({
+  success: true,
+  message: "Login exitoso",
+  token,
+  user: userSafe
+});
+
 };
