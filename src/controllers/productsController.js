@@ -13,7 +13,7 @@ export const getProductById = (req, res) => {
   res.json(product);
 };
 
-/* ------------------- NUEVO ------------------- */
+/* ------------------- AGREGAR PRODUCTO ------------------- */
 export const addProduct = (req, res) => {
   const { nombre, categoria, descripcion, precio, imagen, stock } = req.body;
 
@@ -37,8 +37,63 @@ export const addProduct = (req, res) => {
 
   res.status(201).json({ message: "Producto agregado", product: newProduct });
 };
-/* ---------------------------------------------- */
 
+/* ------------------- ACTUALIZAR PRODUCTO ------------------- */
+export const updateProduct = (req, res) => {
+  const id = Number(req.params.id);
+  const { nombre, categoria, descripcion, precio, imagen, stock } = req.body;
+
+  if (!nombre || !categoria || !descripcion || !precio || !imagen) {
+    return res.status(400).json({ message: "Todos los campos son obligatorios" });
+  }
+
+  const db = readDB();
+  const productIndex = db.products.findIndex(p => p.id === id);
+
+  if (productIndex === -1) {
+    return res.status(404).json({ message: "Producto no encontrado" });
+  }
+
+  // Actualizar el producto
+  db.products[productIndex] = {
+    ...db.products[productIndex],
+    nombre,
+    categoria,
+    descripcion,
+    precio: Number(precio),
+    imagen,
+    stock: stock !== undefined ? Number(stock) : db.products[productIndex].stock
+  };
+
+  writeDB(db);
+
+  res.json({ 
+    message: "Producto actualizado correctamente", 
+    product: db.products[productIndex] 
+  });
+};
+
+/* ------------------- ELIMINAR PRODUCTO ------------------- */
+export const deleteProduct = (req, res) => {
+  const id = Number(req.params.id);
+  const db = readDB();
+  
+  const productIndex = db.products.findIndex(p => p.id === id);
+  
+  if (productIndex === -1) {
+    return res.status(404).json({ message: "Producto no encontrado" });
+  }
+
+  const deletedProduct = db.products.splice(productIndex, 1)[0];
+  writeDB(db);
+
+  res.json({ 
+    message: "Producto eliminado correctamente", 
+    product: deletedProduct 
+  });
+};
+
+/* ------------------- ACTUALIZAR STOCK ------------------- */
 export const updateStock = (req, res) => {
   const { items } = req.body;
 

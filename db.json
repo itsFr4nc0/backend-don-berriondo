@@ -227,7 +227,7 @@
       "descripcion": "240 funciones para matemáticas avanzadas.",
       "precio": 85000,
       "imagen": "https://images.unsplash.com/photo-1574607383077-47ddc2dc51c4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1936",
-      "stock": 69
+      "stock": 0
     },
     {
       "id": 20,
@@ -241,11 +241,11 @@
     {
       "id": 21,
       "nombre": "Castillo",
-      "categoria": "Hogar",
+      "categoria": "Papelería",
       "descripcion": "q",
       "precio": 1,
-      "imagen": "https://images.unsplash.com/photo-1764911866769-bc27bb312c6f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "stock": 0
+      "imagen": "https://plus.unsplash.com/premium_photo-1661873863027-51b409f112f5?q=80&w=1728&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "stock": 4
     },
     {
       "id": 22,
@@ -254,7 +254,7 @@
       "descripcion": "Bañera 1A, de donde traen las mejores bañeras del mundo",
       "precio": 3000000,
       "imagen": "https://plus.unsplash.com/premium_photo-1764499845502-45288f3395b0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8",
-      "stock": 2
+      "stock": 3
     }
   ],
   "opinions": [
