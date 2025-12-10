@@ -13,6 +13,32 @@ export const getProductById = (req, res) => {
   res.json(product);
 };
 
+/* ------------------- NUEVO ------------------- */
+export const addProduct = (req, res) => {
+  const { nombre, categoria, descripcion, precio, imagen, stock } = req.body;
+
+  if (!nombre || !categoria || !descripcion || !precio || !imagen || !stock) {
+    return res.status(400).json({ message: "Todos los campos son obligatorios" });
+  }
+
+  const db = readDB();
+  const newProduct = {
+    id: db.products.length ? db.products[db.products.length - 1].id + 1 : 1,
+    nombre,
+    categoria,
+    descripcion,
+    precio: Number(precio),
+    imagen,
+    stock: Number(stock)
+  };
+
+  db.products.push(newProduct);
+  writeDB(db);
+
+  res.status(201).json({ message: "Producto agregado", product: newProduct });
+};
+/* ---------------------------------------------- */
+
 export const updateStock = (req, res) => {
   const { items } = req.body;
 

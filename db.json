@@ -44,6 +44,17 @@
       "address": "Calle 32",
       "birthDate": "2005-02-07",
       "gender": "masculino"
+    },
+    {
+      "id": "d9ce164b-ac37-4af7-9962-59e9fc419c01",
+      "name": "Camilo g",
+      "email": "milo@gmail.com",
+      "passwordHash": "$2b$10$JMPEgrOmyPPnL/9vegm2T.z9iHcKf.75sgHqSJYzRRrvovEi3oVoW",
+      "city": "Bello",
+      "postalCode": "051054",
+      "address": "Carrera ",
+      "birthDate": "2025-12-09",
+      "gender": "masculino"
     }
   ],
   "products": [
@@ -81,7 +92,7 @@
       "descripcion": "Espacio amplio y diseño moderno.",
       "precio": 850000,
       "imagen": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?w=400",
-      "stock": 10
+      "stock": 8
     },
     {
       "id": 5,
@@ -90,7 +101,7 @@
       "descripcion": "Papel de alta calidad para tus notas.",
       "precio": 25000,
       "imagen": "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=400",
-      "stock": 24
+      "stock": 22
     },
     {
       "id": 6,
@@ -198,7 +209,7 @@
       "descripcion": "Switches azules con iluminación personalizable.",
       "precio": 320000,
       "imagen": "https://images.unsplash.com/photo-1669884209488-1332b73f122b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=400",
-      "stock": 28
+      "stock": 27
     },
     {
       "id": 18,
@@ -216,7 +227,7 @@
       "descripcion": "240 funciones para matemáticas avanzadas.",
       "precio": 85000,
       "imagen": "https://images.unsplash.com/photo-1574607383077-47ddc2dc51c4?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1936",
-      "stock": 70
+      "stock": 69
     },
     {
       "id": 20,
@@ -225,7 +236,25 @@
       "descripcion": "Antideslizante con grosor de 6mm.",
       "precio": 145000,
       "imagen": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400",
-      "stock": 33
+      "stock": 31
+    },
+    {
+      "id": 21,
+      "nombre": "Castillo",
+      "categoria": "Hogar",
+      "descripcion": "q",
+      "precio": 1,
+      "imagen": "https://images.unsplash.com/photo-1764911866769-bc27bb312c6f?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "stock": 0
+    },
+    {
+      "id": 22,
+      "nombre": "Bañera de lujo",
+      "categoria": "Hogar",
+      "descripcion": "Bañera 1A, de donde traen las mejores bañeras del mundo",
+      "precio": 3000000,
+      "imagen": "https://plus.unsplash.com/premium_photo-1764499845502-45288f3395b0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8",
+      "stock": 2
     }
   ],
   "opinions": [
@@ -237,6 +266,33 @@
       "comentario": "Gran producto, ¡escribe fantástico!",
       "estrellas": 5,
       "fecha": "2025-12-07T17:42:04.969Z"
+    },
+    {
+      "id": "ce7c3b35-4570-4860-9db1-5a26e5ede7aa",
+      "userId": "d9ce164b-ac37-4af7-9962-59e9fc419c01",
+      "productId": 5,
+      "nombre": "Camilo g",
+      "comentario": "Compre 1 hace 6 semestres y sigue como nuevo :D",
+      "estrellas": 4,
+      "fecha": "2025-12-09T04:14:22.530Z"
+    },
+    {
+      "id": "fb12ecc0-5dd5-4636-a18b-aefd9f4cecf1",
+      "userId": "d9ce164b-ac37-4af7-9962-59e9fc419c01",
+      "productId": 19,
+      "nombre": "Camilo g",
+      "comentario": "No corre DOOM",
+      "estrellas": 3,
+      "fecha": "2025-12-09T04:19:18.501Z"
+    },
+    {
+      "id": "21cebf3d-b7c5-465f-9d1e-182b42951337",
+      "userId": 1,
+      "productId": 4,
+      "nombre": "Don Berriondo",
+      "comentario": "Escritorio 1A papa",
+      "estrellas": 5,
+      "fecha": "2025-12-09T04:21:38.956Z"
     }
   ],
   "purchases": [
@@ -253,6 +309,136 @@
       ],
       "fecha": "2025-12-07T17:41:26.373Z",
       "total": 20000
+    },
+    {
+      "id": "578bce8c-6e5a-45dc-ab8c-003bb6fb7a39",
+      "userId": "d9ce164b-ac37-4af7-9962-59e9fc419c01",
+      "items": [
+        {
+          "id": 5,
+          "name": "Cuadernos",
+          "cantidad": 1,
+          "precio": 25000
+        },
+        {
+          "id": 21,
+          "name": "Castillo",
+          "cantidad": 1,
+          "precio": 1
+        }
+      ],
+      "fecha": "2025-12-09T04:06:25.783Z",
+      "total": 25001
+    },
+    {
+      "id": "9ef1b63b-9f93-41eb-a688-c14d49771413",
+      "userId": 1,
+      "items": [
+        {
+          "id": 20,
+          "name": "Yoga Mat",
+          "cantidad": 1,
+          "precio": 145000
+        }
+      ],
+      "fecha": "2025-12-09T04:07:26.487Z",
+      "total": 145000
+    },
+    {
+      "id": "0b58ee63-0f96-4103-957d-42efd676e455",
+      "userId": 1,
+      "items": [
+        {
+          "id": 5,
+          "name": "Cuadernos",
+          "cantidad": 1,
+          "precio": 25000
+        }
+      ],
+      "fecha": "2025-12-09T04:07:35.169Z",
+      "total": 25000
+    },
+    {
+      "id": "d0cbab30-8457-4361-b81d-9a9abdd7b11a",
+      "userId": "d9ce164b-ac37-4af7-9962-59e9fc419c01",
+      "items": [
+        {
+          "id": 20,
+          "name": "Yoga Mat",
+          "cantidad": 1,
+          "precio": 145000
+        },
+        {
+          "id": 19,
+          "name": "Calculadora Científica",
+          "cantidad": 1,
+          "precio": 85000
+        }
+      ],
+      "fecha": "2025-12-09T04:13:34.394Z",
+      "total": 230000
+    },
+    {
+      "id": "a066e174-941a-4fb1-9651-7302da6dfcec",
+      "userId": 1,
+      "items": [
+        {
+          "id": 17,
+          "name": "Teclado Mecánico RGB",
+          "cantidad": 1,
+          "precio": 320000
+        }
+      ],
+      "fecha": "2025-12-09T04:20:15.094Z",
+      "total": 320000
+    },
+    {
+      "id": "7487a9c2-ce9a-4f1b-a471-cb29e364dd96",
+      "userId": 1,
+      "items": [
+        {
+          "id": 4,
+          "name": "Escritorio Ergonómico",
+          "cantidad": 1,
+          "precio": 850000
+        }
+      ],
+      "fecha": "2025-12-09T04:21:21.127Z",
+      "total": 850000
+    },
+    {
+      "id": "3d1f2c05-2251-4aba-8995-dfef7846c194",
+      "userId": 1,
+      "items": [
+        {
+          "id": 22,
+          "name": "Bañera de lujo",
+          "cantidad": 1,
+          "precio": 3000000
+        }
+      ],
+      "fecha": "2025-12-09T04:31:10.729Z",
+      "total": 3000000
+    },
+    {
+      "id": "c578a006-8a89-4aa8-9cd7-a7e8cc613efc",
+      "userId": "d9ce164b-ac37-4af7-9962-59e9fc419c01",
+      "items": [
+        {
+          "id": 22,
+          "name": "Bañera de lujo",
+          "cantidad": 1,
+          "precio": 3000000
+        },
+        {
+          "id": 4,
+          "name": "Escritorio Ergonómico",
+          "cantidad": 1,
+          "precio": 850000
+        }
+      ],
+      "fecha": "2025-12-09T04:32:04.208Z",
+      "total": 3850000
     }
   ],
   "carts": []
