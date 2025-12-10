@@ -1,4 +1,5 @@
 import express from "express";
+
 import { 
   getProducts, 
   getProductById, 
@@ -19,6 +20,7 @@ router.post("/update-stock", updateStock);
 // Rutas protegidas (solo admin)
 router.post("/", authMiddleware, addProduct);
 router.put("/:id", authMiddleware, updateProduct);
+router.delete("/:id", authMiddleware, deleteProduct);
 router.delete("/:id", authMiddleware, deleteProduct);
 
 export default router;

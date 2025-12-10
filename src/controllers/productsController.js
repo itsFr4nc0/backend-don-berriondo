@@ -73,26 +73,37 @@ export const updateProduct = (req, res) => {
   });
 };
 
-/* ------------------- ELIMINAR PRODUCTO ------------------- */
+
 export const deleteProduct = (req, res) => {
   const id = Number(req.params.id);
-  const db = readDB();
   
-  const productIndex = db.products.findIndex(p => p.id === id);
-  
-  if (productIndex === -1) {
-    return res.status(404).json({ message: "Producto no encontrado" });
+  if (!id) {
+    return res.status(400).json({ message: "ID inválido" });
   }
 
-  const deletedProduct = db.products.splice(productIndex, 1)[0];
-  writeDB(db);
-
-  res.json({ 
-    message: "Producto eliminado correctamente", 
-    product: deletedProduct 
-  });
+  try {
+    const db = readDB();
+    
+    const productIndex = db.products.findIndex(p => p.id === id);
+    
+    if (productIndex === -1) {
+      return res.status(404).json({ message: "Producto no encontrado" });
+    }
+    
+    // Eliminar el producto
+    const deletedProduct = db.products.splice(productIndex, 1)[0];
+    
+    writeDB(db);
+    
+    res.json({ 
+      message: "Producto eliminado exitosamente",
+      product: deletedProduct 
+    });
+  } catch (error) {
+    console.error("Error eliminando producto:", error);
+    res.status(500).json({ message: "Error interno del servidor" });
+  }
 };
-
 /* ------------------- ACTUALIZAR STOCK ------------------- */
 export const updateStock = (req, res) => {
   const { items } = req.body;
